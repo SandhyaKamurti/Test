@@ -1,0 +1,123 @@
+ .container {
+            width: 900px;
+            height: 580px;
+            background: #551d6b;
+            margin: 30px 0px 0px 200px;
+        }
+        
+        .part1 {
+            display: flex;
+        }
+        
+        .one {
+            width: 270px;
+            height: 280px;
+            background: red;
+            text-align: center;
+        }
+        
+        .one p {
+            position: relative;
+            top: 120px;
+        }
+        
+        .two {
+            width: 500px;
+            height: 140px;
+            background: yellow;
+            text-align: center;
+            position: relative;
+            bottom: 20px;
+        }
+        
+        .two p {
+            position: relative;
+            top: 60px;
+        }
+        
+        .four {
+            width: 500px;
+            height: 140px;
+            background: green;
+            text-align: center;
+            position: relative;
+            bottom: 40px;
+        }
+        
+        .four p {
+            position: relative;
+            top: 60px;
+        }
+        
+        .three {
+            width: 135px;
+            height: 280px;
+            background: #db12b6;
+            text-align: center;
+        }
+        
+        .three p {
+            position: relative;
+            top: 120px;
+        }
+        
+        .part2 {
+            display: flex;
+        }
+        
+        .part2 .section1 .section1-part {
+            display: flex;
+        }
+        
+        .five {
+            width: 450px;
+            height: 150px;
+            background: #eb8510;
+            text-align: center;
+            position: relative;
+            bottom: 40px;
+        }
+        
+        .five p {
+            position: relative;
+            top: 50px;
+        }
+        
+        .six {
+            width: 150px;
+            height: 150px;
+            background: #2fa4ed;
+            text-align: center;
+            position: relative;
+            bottom: 40px;
+        }
+        
+        .six p {
+            position: relative;
+            top: 50px;
+        }
+        
+        .eight {
+            width: 600px;
+            height: 150px;
+            background: #c28a4c;
+            text-align: center;
+            position: relative;
+            bottom: 60px;
+        }
+        
+        .eight p {
+            position: relative;
+            top: 50px;
+        }
+        
+        .seven p {
+            position: relative;
+            top: 100px;
+            left: 120px;
+        }
+        
+        p {
+            font-size: 20px;
+            font-weight: 100;
+        }
