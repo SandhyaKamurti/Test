@@ -84,54 +84,48 @@ article img {
     cursor: pointer;
 }
 
-#samsung {
+.popup,
+.popup2,
+.popup3,
+.popup4,
+.popup5,
+.popup6,
+.popup7,
+.popup8 {
     display: flex;
 }
 
-#samsung .product1 {
-    display: flex;
+.popup .popuptext,
+.popup2 .popuptext2,
+.popup3 .popuptext3,
+.popup4 .popuptext4,
+.popup5 .popuptext5,
+.popup6 .popuptext6,
+.popup7 .popuptext7,
+.popup8 .popuptext8 {
+    /* visibility: hidden;*/
+    display: none;
+    width: 200px;
+    text-align: center;
 }
 
-#samsung .product2 {
-    display: flex;
-}
-
-#samsung .product3 {
-    display: flex;
-}
-
-#samsung .inline {
-    position: relative;
-    top: 90px;
-}
-
-#apple {
-    display: flex;
-    position: relative;
-    right: 70px;
-}
-
-#apple .product1 {
-    display: flex;
-}
-
-#apple .product2 {
-    display: flex;
-}
-
-#apple .product3 {
-    display: flex;
-}
-
-#apple img {
-    height: 500px;
-    width: 500px;
-}
-
-.hide {
-    display: none
-}
-
-.show {
+.popup .show,
+.popup2 .show,
+.popup3 .show,
+.popup4 .show,
+.popup5 .show,
+.popup5 .show,
+.popup6 .show,
+.popup7 .show,
+.popup8 .show {
+    /*visibility: visible;*/
     display: initial;
+}
+
+.row1 h3,
+.row2 h3 {
+    font-family: 'Sansita Swashed', cursive;
+    position: relative;
+    top: 20px;
+    right: 70px;
 }
